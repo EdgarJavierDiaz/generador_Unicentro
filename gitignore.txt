@@ -1,0 +1,25 @@
+# --- DATOS SENSIBLES (IMPORTANTE) ---
+# Ignorar todos los archivos de Excel (Intereses y Bancos)
+*.xlsx
+*.xls
+*.csv
+
+# --- ARCHIVOS DE SISTEMA PYTHON ---
+# Basura que genera Python al ejecutarse
+__pycache__/
+*.pyc
+
+# --- ENTORNOS VIRTUALES ---
+# Si creaste un entorno virtual, no lo subas (pesa mucho)
+venv/
+env/
+.venv/
+
+# --- CONFIGURACIONES DE STREAMLIT ---
+# Si tienes secretos o configuraciones locales
+.streamlit/secrets.toml
+
+# --- SISTEMA OPERATIVO ---
+# Archivos basura de Mac o Windows
+.DS_Store
+Thumbs.db
